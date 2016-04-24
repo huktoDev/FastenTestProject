@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B99B5F047307AD39D89C06491FF47A /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A2AEA6F18B93212006AFB2A7A25AF8 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92718CF36D1849B744FBF3C195D23A86 /* JSONModel.m */; };
+		216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		241E4076BD903E4936952EAB21FF42CE /* TLAnimatedSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9277BD782A808DCE17EE210F52848A04 /* TLAnimatedSegue-dummy.m */; };
+		2ACD0186F64897EC1CED94F7ADF6EB58 /* TLPresentSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = C3207D7A8CA606F061E7C28A96271BCD /* TLPresentSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B91F79802E5A9E7B250F396C010A3A8 /* TLPresentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 03523FF593DC9ACC79BF2D7B59973806 /* TLPresentSegue.m */; };
+		2F8D135BE069298B3FE7C13988B2CF08 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE386F47DAB0AC5C1D1561323B933A5 /* JSONModelClassProperty.m */; };
+		393E2E501D0B38AE7DD535362026926D /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD5928EE35BCDF609680B8D02851919 /* JSONAPI.m */; };
+		3AEB2F7BDC39C39E0BF27251C4B63688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5057CD24F1194AAD030E86373A2BFE18 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC989705B9358AC4FE0782CF4AC5695 /* TLAnimatedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF46D591E0D294BEED0BFEB3275A20 /* TLAnimatedSegue.m */; };
+		52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F451B0725CE98CA9707814D5EA32BA3F /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59DFAF46993F71E88A7336D2A8A3731D /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B02AA9AD4B6D7285BAA5C5BBA8F743 /* JSONHTTPClient.m */; };
+		69F8CD1846D311335D37EB1BE9201826 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */; };
+		740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CBE519CCB1F5D629D8114E27174F27 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC57A971BC81BEFCD4D52ACF58BB517 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD1225949325D4088EDB06A5586165 /* JSONValueTransformer.m */; };
+		8572EA2DB7894989FDA4C085E70D96C8 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0372BBFC64E1C503176220A327E99D93 /* NSArray+JSONModel.m */; };
+		85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5315410313E2DE4EDB48EB63095F6737 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880C99DF50E8C41EBE032934BE7F9905 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD83704E54E9E6F97E58C27B0B12F3D0 /* JSONModelArray.m */; };
+		891A5DA07C60C95DAD969B542CCDE442 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = F56A6D24C95F5B26ADD7B48A1D09B6F1 /* JSONModel+networking.m */; };
+		8CD001B0217CFDD1F5D8A3A6C3A8A5DC /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA129DFCECD123C57EF32C542EC829 /* JSONKeyMapper.m */; };
+		8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 75387F2A6A640AC27AC153E967A041DC /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F77E3886CB818AA6D016C494E03E9E1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B63B8A4C9A761BF6A3B902F1FA85A2 /* SRWebSocket.m */; };
+		A049B322C75DF1C944935D7D0D7F1E7E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6E1430FCC6199BE36622A42054C0AC /* JSONModelError.m */; };
+		B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA6EC34EC1D1E067FFDE606FC8F9DF8 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5A8BCAD2C71072D08487A4AAB80EEE /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F27552B8CD64B407F5A6EC320486BA03 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5873087FA184EF226DA6813DED373BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		E0C40D3F15BC644DEED4AAABF699A2D8 /* TLAnimatedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AD1C2D7FD089EB5C29C7A2CCFB99B0 /* TLAnimatedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84055099C0F1E3C38270BD187AB3000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		E8EC13EB476407AC51BD142AF7E9DF1B /* Pods-FastenTestProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7555E533A9A0B5445A71647848D846 /* Pods-FastenTestProject-dummy.m */; };
+		EB8ED0043A9FA6E5B8864F4DFDC09901 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967D042C48D5885583D70105EF16526 /* Security.framework */; };
+		EE27B8D800BD5CBC5A23FACF87210920 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 595A421A5AA73F67D5DE2A8DA3FE20D8 /* JSONModel-dummy.m */; };
+		F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5771761DF0E32D08DF8C922C5F36C7 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75427596E598E0955738E3FFCAFC23E /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A2B12CEFBB5616B7F528CBAF593887 /* SocketRocket-dummy.m */; };
+		F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6BD69B72C343275CF204397374353E /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F976CC47D49D209211A01E8B08985DA1 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF505E97FEF4052818143DE05084618 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834E97B8B87AA5A248601416EE76049C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87D7BB6194A75886847A6EE793BBF5B;
+			remoteInfo = TLAnimatedSegue;
+		};
+		E7A6A0528535110CFD4FFA05A4722164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FA060F1A0492FB25232F489AC4E573;
+			remoteInfo = JSONModel;
+		};
+		FCE785A529A49ECF6CCADEEC2E2F46BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAECC933E2F60727F770463E62E1EB4;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03523FF593DC9ACC79BF2D7B59973806 /* TLPresentSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLPresentSegue.m; path = Pod/Classes/TLPresentSegue.m; sourceTree = "<group>"; };
+		0372BBFC64E1C503176220A327E99D93 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		0B5A8BCAD2C71072D08487A4AAB80EEE /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		10B02AA9AD4B6D7285BAA5C5BBA8F743 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		1A7555E533A9A0B5445A71647848D846 /* Pods-FastenTestProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastenTestProject-dummy.m"; sourceTree = "<group>"; };
+		244BEB9358D42730C68753DD90DC60FA /* Pods-FastenTestProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastenTestProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26266938DED3AEEC07F9EF10DAEFBF60 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E6ACFA1B256A3ECF9FC63E0090CDEF /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		3D6BD69B72C343275CF204397374353E /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		3DE386F47DAB0AC5C1D1561323B933A5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		43AA50E42B7F39251F9EEEE1C89DD5B4 /* Pods-FastenTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastenTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		4644C7C4749C507905A94BE666819712 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		5057CD24F1194AAD030E86373A2BFE18 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		5315410313E2DE4EDB48EB63095F6737 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		57E9D38E6A8B12492204854F2C3354D5 /* Pods-FastenTestProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastenTestProject-resources.sh"; sourceTree = "<group>"; };
+		595A421A5AA73F67D5DE2A8DA3FE20D8 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		74FA129DFCECD123C57EF32C542EC829 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		75387F2A6A640AC27AC153E967A041DC /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		79BB5906AF5C04331012B6D19953C9C0 /* TLAnimatedSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLAnimatedSegue-prefix.pch"; sourceTree = "<group>"; };
+		7EF505E97FEF4052818143DE05084618 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		82CB61D06F01B3787C3AD394F433E48F /* TLAnimatedSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLAnimatedSegue.xcconfig; sourceTree = "<group>"; };
+		84B96977000140F26D5D9A282CC4863A /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		8F5771761DF0E32D08DF8C922C5F36C7 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		92718CF36D1849B744FBF3C195D23A86 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		9277BD782A808DCE17EE210F52848A04 /* TLAnimatedSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLAnimatedSegue-dummy.m"; sourceTree = "<group>"; };
+		92D6B8574275BB2E5EB40C98CF7462CC /* libPods-FastenTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastenTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD1225949325D4088EDB06A5586165 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		A9FF46D591E0D294BEED0BFEB3275A20 /* TLAnimatedSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLAnimatedSegue.m; path = Pod/Classes/TLAnimatedSegue.m; sourceTree = "<group>"; };
+		AC6E1430FCC6199BE36622A42054C0AC /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		B320D8A6C121A1E10263DF954CEA5722 /* Pods-FastenTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastenTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AD1C2D7FD089EB5C29C7A2CCFB99B0 /* TLAnimatedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLAnimatedSegue.h; path = Pod/Classes/TLAnimatedSegue.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3207D7A8CA606F061E7C28A96271BCD /* TLPresentSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLPresentSegue.h; path = Pod/Classes/TLPresentSegue.h; sourceTree = "<group>"; };
+		C7544FD9B7F57E8F22CAADD175C8C2DA /* Pods-FastenTestProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastenTestProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD83704E54E9E6F97E58C27B0B12F3D0 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		D4B99B5F047307AD39D89C06491FF47A /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		E0CBE519CCB1F5D629D8114E27174F27 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		E3A2B12CEFBB5616B7F528CBAF593887 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		E82839520E20FFFB384282F9F418AC8D /* Pods-FastenTestProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastenTestProject-frameworks.sh"; sourceTree = "<group>"; };
+		E967D042C48D5885583D70105EF16526 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		ECA6EC34EC1D1E067FFDE606FC8F9DF8 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F21BEEE4C187C9FE28F866FB1E559E0D /* libTLAnimatedSegue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTLAnimatedSegue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27552B8CD64B407F5A6EC320486BA03 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		F451B0725CE98CA9707814D5EA32BA3F /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		F56A6D24C95F5B26ADD7B48A1D09B6F1 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		F7B63B8A4C9A761BF6A3B902F1FA85A2 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		FBD5928EE35BCDF609680B8D02851919 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		FC90861F76F160EC2AFF122ED6473969 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF6544BD83D0837FDE21087D01EB09 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79474BDCF31EBC9E42B397DEE98C3E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEB2F7BDC39C39E0BF27251C4B63688 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2BBC8E39516012F29ED5BF0A741195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84055099C0F1E3C38270BD187AB3000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B0167DDED287785301F60009E34F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F8CD1846D311335D37EB1BE9201826 /* CFNetwork.framework in Frameworks */,
+				D5873087FA184EF226DA6813DED373BC /* Foundation.framework in Frameworks */,
+				EB8ED0043A9FA6E5B8864F4DFDC09901 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F96DE1B4A74EFE2FA94D65D879FCD41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CB61D06F01B3787C3AD394F433E48F /* TLAnimatedSegue.xcconfig */,
+				9277BD782A808DCE17EE210F52848A04 /* TLAnimatedSegue-dummy.m */,
+				79BB5906AF5C04331012B6D19953C9C0 /* TLAnimatedSegue-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLAnimatedSegue";
+			sourceTree = "<group>";
+		};
+		100C702EA9CE77E22014A0637BC06438 /* Pods-FastenTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				244BEB9358D42730C68753DD90DC60FA /* Pods-FastenTestProject-acknowledgements.markdown */,
+				C7544FD9B7F57E8F22CAADD175C8C2DA /* Pods-FastenTestProject-acknowledgements.plist */,
+				1A7555E533A9A0B5445A71647848D846 /* Pods-FastenTestProject-dummy.m */,
+				E82839520E20FFFB384282F9F418AC8D /* Pods-FastenTestProject-frameworks.sh */,
+				57E9D38E6A8B12492204854F2C3354D5 /* Pods-FastenTestProject-resources.sh */,
+				B320D8A6C121A1E10263DF954CEA5722 /* Pods-FastenTestProject.debug.xcconfig */,
+				43AA50E42B7F39251F9EEEE1C89DD5B4 /* Pods-FastenTestProject.release.xcconfig */,
+			);
+			name = "Pods-FastenTestProject";
+			path = "Target Support Files/Pods-FastenTestProject";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B728418FA3338AB680410C5B26CF547F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		251849324BCB78AECCEE4D45E0DB062C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3F07E2F87C07D192B52662630B2636 /* JSONModel */,
+				4D81D5577965184689769C7FB0F956D2 /* SocketRocket */,
+				B6619AF6DF19206EE7088397DCD43D98 /* TLAnimatedSegue */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2588EEF0C2B495C9B3FEE480E17F21AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF6544BD83D0837FDE21087D01EB09 /* SocketRocket.xcconfig */,
+				E3A2B12CEFBB5616B7F528CBAF593887 /* SocketRocket-dummy.m */,
+				37E6ACFA1B256A3ECF9FC63E0090CDEF /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		262B662ED7B95EA24E3F13FE6D614662 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				100C702EA9CE77E22014A0637BC06438 /* Pods-FastenTestProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F3F07E2F87C07D192B52662630B2636 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				5315410313E2DE4EDB48EB63095F6737 /* JSONAPI.h */,
+				FBD5928EE35BCDF609680B8D02851919 /* JSONAPI.m */,
+				F27552B8CD64B407F5A6EC320486BA03 /* JSONHTTPClient.h */,
+				10B02AA9AD4B6D7285BAA5C5BBA8F743 /* JSONHTTPClient.m */,
+				5057CD24F1194AAD030E86373A2BFE18 /* JSONKeyMapper.h */,
+				74FA129DFCECD123C57EF32C542EC829 /* JSONKeyMapper.m */,
+				ECA6EC34EC1D1E067FFDE606FC8F9DF8 /* JSONModel.h */,
+				92718CF36D1849B744FBF3C195D23A86 /* JSONModel.m */,
+				3D6BD69B72C343275CF204397374353E /* JSONModel+networking.h */,
+				F56A6D24C95F5B26ADD7B48A1D09B6F1 /* JSONModel+networking.m */,
+				F451B0725CE98CA9707814D5EA32BA3F /* JSONModelArray.h */,
+				CD83704E54E9E6F97E58C27B0B12F3D0 /* JSONModelArray.m */,
+				E0CBE519CCB1F5D629D8114E27174F27 /* JSONModelClassProperty.h */,
+				3DE386F47DAB0AC5C1D1561323B933A5 /* JSONModelClassProperty.m */,
+				8F5771761DF0E32D08DF8C922C5F36C7 /* JSONModelError.h */,
+				AC6E1430FCC6199BE36622A42054C0AC /* JSONModelError.m */,
+				0B5A8BCAD2C71072D08487A4AAB80EEE /* JSONModelLib.h */,
+				D4B99B5F047307AD39D89C06491FF47A /* JSONValueTransformer.h */,
+				94FD1225949325D4088EDB06A5586165 /* JSONValueTransformer.m */,
+				75387F2A6A640AC27AC153E967A041DC /* NSArray+JSONModel.h */,
+				0372BBFC64E1C503176220A327E99D93 /* NSArray+JSONModel.m */,
+				61D50FB3600ECC9FD6C143551958ACC3 /* Support Files */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		4D81D5577965184689769C7FB0F956D2 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				7EF505E97FEF4052818143DE05084618 /* SRWebSocket.h */,
+				F7B63B8A4C9A761BF6A3B902F1FA85A2 /* SRWebSocket.m */,
+				2588EEF0C2B495C9B3FEE480E17F21AC /* Support Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		573D897EE5765C2F3FA71EEC43492F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26266938DED3AEEC07F9EF10DAEFBF60 /* libJSONModel.a */,
+				92D6B8574275BB2E5EB40C98CF7462CC /* libPods-FastenTestProject.a */,
+				FC90861F76F160EC2AFF122ED6473969 /* libSocketRocket.a */,
+				F21BEEE4C187C9FE28F866FB1E559E0D /* libTLAnimatedSegue.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D50FB3600ECC9FD6C143551958ACC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B96977000140F26D5D9A282CC4863A /* JSONModel.xcconfig */,
+				595A421A5AA73F67D5DE2A8DA3FE20D8 /* JSONModel-dummy.m */,
+				4644C7C4749C507905A94BE666819712 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				251849324BCB78AECCEE4D45E0DB062C /* Pods */,
+				573D897EE5765C2F3FA71EEC43492F8D /* Products */,
+				262B662ED7B95EA24E3F13FE6D614662 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6619AF6DF19206EE7088397DCD43D98 /* TLAnimatedSegue */ = {
+			isa = PBXGroup;
+			children = (
+				B9AD1C2D7FD089EB5C29C7A2CCFB99B0 /* TLAnimatedSegue.h */,
+				A9FF46D591E0D294BEED0BFEB3275A20 /* TLAnimatedSegue.m */,
+				C3207D7A8CA606F061E7C28A96271BCD /* TLPresentSegue.h */,
+				03523FF593DC9ACC79BF2D7B59973806 /* TLPresentSegue.m */,
+				0F96DE1B4A74EFE2FA94D65D879FCD41 /* Support Files */,
+			);
+			path = TLAnimatedSegue;
+			sourceTree = "<group>";
+		};
+		B728418FA3338AB680410C5B26CF547F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */,
+				CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */,
+				E967D042C48D5885583D70105EF16526 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EEA72BE015541ED3D178BEF9BB5788F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */,
+				D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */,
+				4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */,
+				F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */,
+				B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */,
+				52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */,
+				740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */,
+				F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */,
+				C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */,
+				04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */,
+				8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3552F0E6F3A5B9033B393BC7D4C0ED1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C40D3F15BC644DEED4AAABF699A2D8 /* TLAnimatedSegue.h in Headers */,
+				2ACD0186F64897EC1CED94F7ADF6EB58 /* TLPresentSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4336F2CDCC8BB2165F0B0529F52EDD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F976CC47D49D209211A01E8B08985DA1 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09FA060F1A0492FB25232F489AC4E573 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				DCC9A773031824E51419098CE072BB9E /* Sources */,
+				EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */,
+				6EEA72BE015541ED3D178BEF9BB5788F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 26266938DED3AEEC07F9EF10DAEFBF60 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8558D8F8B8C4F5B01104885BFA628793 /* Pods-FastenTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204D7AF12A5581B0736545C2C699E935 /* Build configuration list for PBXNativeTarget "Pods-FastenTestProject" */;
+			buildPhases = (
+				38B239A63FC664D9B2815C25B970DECA /* Sources */,
+				79474BDCF31EBC9E42B397DEE98C3E9B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6049CD3FEC9A9FFF8A19C5E05693F66D /* PBXTargetDependency */,
+				4A0B1DC38E4E0F0B8A477A6DF737D02F /* PBXTargetDependency */,
+				A212C49DED3E2009A783D5C8A940962B /* PBXTargetDependency */,
+			);
+			name = "Pods-FastenTestProject";
+			productName = "Pods-FastenTestProject";
+			productReference = 92D6B8574275BB2E5EB40C98CF7462CC /* libPods-FastenTestProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CFAECC933E2F60727F770463E62E1EB4 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C593CBC35A1D25169D5A0EE8518A84A4 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				B2A1AEE0FB809A3D2768698C6B06654B /* Sources */,
+				D0B0167DDED287785301F60009E34F8E /* Frameworks */,
+				B4336F2CDCC8BB2165F0B0529F52EDD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = FC90861F76F160EC2AFF122ED6473969 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E87D7BB6194A75886847A6EE793BBF5B /* TLAnimatedSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C11927580084C51DFA9D32171200ECE /* Build configuration list for PBXNativeTarget "TLAnimatedSegue" */;
+			buildPhases = (
+				997EDC8FAC5D2370AF348597F137B293 /* Sources */,
+				8C2BBC8E39516012F29ED5BF0A741195 /* Frameworks */,
+				A3552F0E6F3A5B9033B393BC7D4C0ED1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLAnimatedSegue;
+			productName = TLAnimatedSegue;
+			productReference = F21BEEE4C187C9FE28F866FB1E559E0D /* libTLAnimatedSegue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 573D897EE5765C2F3FA71EEC43492F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FA060F1A0492FB25232F489AC4E573 /* JSONModel */,
+				8558D8F8B8C4F5B01104885BFA628793 /* Pods-FastenTestProject */,
+				CFAECC933E2F60727F770463E62E1EB4 /* SocketRocket */,
+				E87D7BB6194A75886847A6EE793BBF5B /* TLAnimatedSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B239A63FC664D9B2815C25B970DECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EC13EB476407AC51BD142AF7E9DF1B /* Pods-FastenTestProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997EDC8FAC5D2370AF348597F137B293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E4076BD903E4936952EAB21FF42CE /* TLAnimatedSegue-dummy.m in Sources */,
+				4EC989705B9358AC4FE0782CF4AC5695 /* TLAnimatedSegue.m in Sources */,
+				2B91F79802E5A9E7B250F396C010A3A8 /* TLPresentSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A1AEE0FB809A3D2768698C6B06654B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75427596E598E0955738E3FFCAFC23E /* SocketRocket-dummy.m in Sources */,
+				8F77E3886CB818AA6D016C494E03E9E1 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC9A773031824E51419098CE072BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393E2E501D0B38AE7DD535362026926D /* JSONAPI.m in Sources */,
+				59DFAF46993F71E88A7336D2A8A3731D /* JSONHTTPClient.m in Sources */,
+				8CD001B0217CFDD1F5D8A3A6C3A8A5DC /* JSONKeyMapper.m in Sources */,
+				891A5DA07C60C95DAD969B542CCDE442 /* JSONModel+networking.m in Sources */,
+				EE27B8D800BD5CBC5A23FACF87210920 /* JSONModel-dummy.m in Sources */,
+				19A2AEA6F18B93212006AFB2A7A25AF8 /* JSONModel.m in Sources */,
+				880C99DF50E8C41EBE032934BE7F9905 /* JSONModelArray.m in Sources */,
+				2F8D135BE069298B3FE7C13988B2CF08 /* JSONModelClassProperty.m in Sources */,
+				A049B322C75DF1C944935D7D0D7F1E7E /* JSONModelError.m in Sources */,
+				7EC57A971BC81BEFCD4D52ACF58BB517 /* JSONValueTransformer.m in Sources */,
+				8572EA2DB7894989FDA4C085E70D96C8 /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0B1DC38E4E0F0B8A477A6DF737D02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = CFAECC933E2F60727F770463E62E1EB4 /* SocketRocket */;
+			targetProxy = FCE785A529A49ECF6CCADEEC2E2F46BE /* PBXContainerItemProxy */;
+		};
+		6049CD3FEC9A9FFF8A19C5E05693F66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 09FA060F1A0492FB25232F489AC4E573 /* JSONModel */;
+			targetProxy = E7A6A0528535110CFD4FFA05A4722164 /* PBXContainerItemProxy */;
+		};
+		A212C49DED3E2009A783D5C8A940962B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLAnimatedSegue;
+			target = E87D7BB6194A75886847A6EE793BBF5B /* TLAnimatedSegue */;
+			targetProxy = 834E97B8B87AA5A248601416EE76049C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A092CEBFB78BB9DC666DAFC005D374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AA50E42B7F39251F9EEEE1C89DD5B4 /* Pods-FastenTestProject.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		04CBB63F4AA416ED350350D1B29D6280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CB61D06F01B3787C3AD394F433E48F /* TLAnimatedSegue.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLAnimatedSegue/TLAnimatedSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3696E439ADCC6170C35F65F0CFCB5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B96977000140F26D5D9A282CC4863A /* JSONModel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3D2DD40650E6ADC4032B0DCC542D479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBF6544BD83D0837FDE21087D01EB09 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0023F8265A0E851914F3F5BF7A58290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CB61D06F01B3787C3AD394F433E48F /* TLAnimatedSegue.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLAnimatedSegue/TLAnimatedSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4CCEB3003541A51A51EC8EF344D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B96977000140F26D5D9A282CC4863A /* JSONModel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E32A2C35671DA7445401EB28F1041ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B320D8A6C121A1E10263DF954CEA5722 /* Pods-FastenTestProject.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC122D84A54A15A7AA3F3482626E1453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBF6544BD83D0837FDE21087D01EB09 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204D7AF12A5581B0736545C2C699E935 /* Build configuration list for PBXNativeTarget "Pods-FastenTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32A2C35671DA7445401EB28F1041ACE /* Debug */,
+				00A092CEBFB78BB9DC666DAFC005D374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C11927580084C51DFA9D32171200ECE /* Build configuration list for PBXNativeTarget "TLAnimatedSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0023F8265A0E851914F3F5BF7A58290 /* Debug */,
+				04CBB63F4AA416ED350350D1B29D6280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C593CBC35A1D25169D5A0EE8518A84A4 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D2DD40650E6ADC4032B0DCC542D479 /* Debug */,
+				EC122D84A54A15A7AA3F3482626E1453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3696E439ADCC6170C35F65F0CFCB5A5D /* Debug */,
+				CC4CCEB3003541A51A51EC8EF344D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

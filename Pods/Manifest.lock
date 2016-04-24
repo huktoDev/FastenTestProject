@@ -1,0 +1,16 @@
+PODS:
+  - JSONModel (1.2.0)
+  - SocketRocket (0.4.2)
+  - TLAnimatedSegue (0.0.3)
+
+DEPENDENCIES:
+  - JSONModel
+  - SocketRocket
+  - TLAnimatedSegue
+
+SPEC CHECKSUMS:
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  TLAnimatedSegue: 09c9b51c9beda6760dca9dafd200700abc113bb0
+
+COCOAPODS: 0.39.0

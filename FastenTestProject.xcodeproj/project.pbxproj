@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1B09021C70E859007A65C6 /* UIView+Gradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B09011C70E859007A65C6 /* UIView+Gradients.m */; };
+		6B345F081C705EFF0064B849 /* HUInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F071C705EFF0064B849 /* HUInfoViewController.m */; };
+		6B345F0C1C706D470064B849 /* HULeftTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F0B1C706D470064B849 /* HULeftTimeFormatter.m */; };
+		6B345F0F1C706ED70064B849 /* HUExpirationDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F0E1C706ED70064B849 /* HUExpirationDateFormatter.m */; };
+		6B345F131C7070830064B849 /* HURFC3339DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F121C7070830064B849 /* HURFC3339DateFormatter.m */; };
+		6B345F151C70815E0064B849 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B345F141C70815E0064B849 /* readme.txt */; };
+		6B345F181C7089850064B849 /* HUWebSocketAuthUserRequisites.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F171C7089850064B849 /* HUWebSocketAuthUserRequisites.m */; };
+		6B345F1C1C70AF490064B849 /* HUFastenStylization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F1B1C70AF490064B849 /* HUFastenStylization.m */; };
+		6B345F1F1C70BDD00064B849 /* HULoginStyleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B345F1E1C70BDD00064B849 /* HULoginStyleButton.m */; };
 		6B3F768D1C6BA7C400446D78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F768C1C6BA7C400446D78 /* main.m */; };
-		6B3F76901C6BA7C400446D78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F768F1C6BA7C400446D78 /* AppDelegate.m */; };
-		6B3F76931C6BA7C400446D78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76921C6BA7C400446D78 /* ViewController.m */; };
+		6B3F76901C6BA7C400446D78 /* HUFastenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F768F1C6BA7C400446D78 /* HUFastenAppDelegate.m */; };
+		6B3F76931C6BA7C400446D78 /* HULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76921C6BA7C400446D78 /* HULoginViewController.m */; };
 		6B3F76961C6BA7C500446D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F76941C6BA7C500446D78 /* Main.storyboard */; };
 		6B3F76981C6BA7C500446D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F76971C6BA7C500446D78 /* Assets.xcassets */; };
 		6B3F769B1C6BA7C500446D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F76991C6BA7C500446D78 /* LaunchScreen.storyboard */; };
 		6B3F76A61C6BA7C500446D78 /* FastenTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76A51C6BA7C500446D78 /* FastenTestProjectTests.m */; };
 		6B3F76B11C6BA7C500446D78 /* FastenTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76B01C6BA7C500446D78 /* FastenTestProjectUITests.m */; };
+		6B3F76CA1C6BAC5900446D78 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F76BE1C6BAB7400446D78 /* libicucore.tbd */; };
+		6B3F76CB1C6BAC6100446D78 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F76C01C6BAB7E00446D78 /* CFNetwork.framework */; };
+		6B3F76CC1C6BAC6800446D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F76C41C6BAB9700446D78 /* Foundation.framework */; };
+		6B3F76CD1C6BAC6F00446D78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F76C21C6BAB8C00446D78 /* Security.framework */; };
+		6B3F76D01C6BB69400446D78 /* HUWebSocketMessageModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76CF1C6BB69400446D78 /* HUWebSocketMessageModels.m */; };
+		6B3F76D31C6EEEB000446D78 /* HUWebSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76D21C6EEEB000446D78 /* HUWebSocketClient.m */; };
+		6B3F76D61C6F0B3600446D78 /* HUWebSocketAuthService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76D51C6F0B3600446D78 /* HUWebSocketAuthService.m */; };
+		6B3F76D91C6F1FFE00446D78 /* HUWebSocketAuthMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76D81C6F1FFE00446D78 /* HUWebSocketAuthMessage.m */; };
+		6B3F76DC1C6F20D900446D78 /* HUWebSocketMessageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76DB1C6F20D900446D78 /* HUWebSocketMessageFactory.m */; };
+		6B3F76E41C6F828200446D78 /* BLMultiColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F76E31C6F828200446D78 /* BLMultiColorLoader.m */; };
+		BDF5EA09C69CA8B9523B8403 /* libPods-FastenTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A884305B23C93809D3D95A /* libPods-FastenTestProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +55,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		393658AE910C93207764FE7F /* Pods-FastenTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastenTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastenTestProject/Pods-FastenTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1B09001C70E859007A65C6 /* UIView+Gradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradients.h"; sourceTree = "<group>"; };
+		6B1B09011C70E859007A65C6 /* UIView+Gradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradients.m"; sourceTree = "<group>"; };
+		6B345F061C705EFF0064B849 /* HUInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUInfoViewController.h; sourceTree = "<group>"; };
+		6B345F071C705EFF0064B849 /* HUInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUInfoViewController.m; sourceTree = "<group>"; };
+		6B345F091C7060D70064B849 /* HUActiveSessionInfoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUActiveSessionInfoProtocol.h; sourceTree = "<group>"; };
+		6B345F0A1C706D470064B849 /* HULeftTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HULeftTimeFormatter.h; sourceTree = "<group>"; };
+		6B345F0B1C706D470064B849 /* HULeftTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HULeftTimeFormatter.m; sourceTree = "<group>"; };
+		6B345F0D1C706ED70064B849 /* HUExpirationDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUExpirationDateFormatter.h; sourceTree = "<group>"; };
+		6B345F0E1C706ED70064B849 /* HUExpirationDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUExpirationDateFormatter.m; sourceTree = "<group>"; };
+		6B345F111C7070830064B849 /* HURFC3339DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HURFC3339DateFormatter.h; sourceTree = "<group>"; };
+		6B345F121C7070830064B849 /* HURFC3339DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HURFC3339DateFormatter.m; sourceTree = "<group>"; };
+		6B345F141C70815E0064B849 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		6B345F161C7089850064B849 /* HUWebSocketAuthUserRequisites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketAuthUserRequisites.h; sourceTree = "<group>"; };
+		6B345F171C7089850064B849 /* HUWebSocketAuthUserRequisites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketAuthUserRequisites.m; sourceTree = "<group>"; };
+		6B345F1A1C70AF490064B849 /* HUFastenStylization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUFastenStylization.h; sourceTree = "<group>"; };
+		6B345F1B1C70AF490064B849 /* HUFastenStylization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUFastenStylization.m; sourceTree = "<group>"; };
+		6B345F1D1C70BDD00064B849 /* HULoginStyleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HULoginStyleButton.h; sourceTree = "<group>"; };
+		6B345F1E1C70BDD00064B849 /* HULoginStyleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HULoginStyleButton.m; sourceTree = "<group>"; };
 		6B3F76881C6BA7C400446D78 /* FastenTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastenTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3F768C1C6BA7C400446D78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B3F768E1C6BA7C400446D78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B3F768F1C6BA7C400446D78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B3F76911C6BA7C400446D78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B3F76921C6BA7C400446D78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B3F768E1C6BA7C400446D78 /* HUFastenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUFastenAppDelegate.h; sourceTree = "<group>"; };
+		6B3F768F1C6BA7C400446D78 /* HUFastenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUFastenAppDelegate.m; sourceTree = "<group>"; };
+		6B3F76911C6BA7C400446D78 /* HULoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HULoginViewController.h; sourceTree = "<group>"; };
+		6B3F76921C6BA7C400446D78 /* HULoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HULoginViewController.m; sourceTree = "<group>"; };
 		6B3F76951C6BA7C500446D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B3F76971C6BA7C500446D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B3F769A1C6BA7C500446D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +90,25 @@
 		6B3F76AC1C6BA7C500446D78 /* FastenTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastenTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3F76B01C6BA7C500446D78 /* FastenTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastenTestProjectUITests.m; sourceTree = "<group>"; };
 		6B3F76B21C6BA7C500446D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3F76BE1C6BAB7400446D78 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		6B3F76C01C6BAB7E00446D78 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6B3F76C21C6BAB8C00446D78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6B3F76C41C6BAB9700446D78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B3F76CE1C6BB69400446D78 /* HUWebSocketMessageModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketMessageModels.h; sourceTree = "<group>"; };
+		6B3F76CF1C6BB69400446D78 /* HUWebSocketMessageModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketMessageModels.m; sourceTree = "<group>"; };
+		6B3F76D11C6EEEB000446D78 /* HUWebSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketClient.h; sourceTree = "<group>"; };
+		6B3F76D21C6EEEB000446D78 /* HUWebSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketClient.m; sourceTree = "<group>"; };
+		6B3F76D41C6F0B3600446D78 /* HUWebSocketAuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketAuthService.h; sourceTree = "<group>"; };
+		6B3F76D51C6F0B3600446D78 /* HUWebSocketAuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketAuthService.m; sourceTree = "<group>"; };
+		6B3F76D71C6F1FFE00446D78 /* HUWebSocketAuthMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketAuthMessage.h; sourceTree = "<group>"; };
+		6B3F76D81C6F1FFE00446D78 /* HUWebSocketAuthMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketAuthMessage.m; sourceTree = "<group>"; };
+		6B3F76DA1C6F20D900446D78 /* HUWebSocketMessageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketMessageFactory.h; sourceTree = "<group>"; };
+		6B3F76DB1C6F20D900446D78 /* HUWebSocketMessageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWebSocketMessageFactory.m; sourceTree = "<group>"; };
+		6B3F76DD1C6F240B00446D78 /* HUWebSocketMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWebSocketMessages.h; sourceTree = "<group>"; };
+		6B3F76E21C6F828200446D78 /* BLMultiColorLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultiColorLoader.h; sourceTree = "<group>"; };
+		6B3F76E31C6F828200446D78 /* BLMultiColorLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultiColorLoader.m; sourceTree = "<group>"; };
+		D4A884305B23C93809D3D95A /* libPods-FastenTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastenTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5B4F8EBFC367317AF354BF /* Pods-FastenTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastenTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastenTestProject/Pods-FastenTestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +116,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3F76CD1C6BAC6F00446D78 /* Security.framework in Frameworks */,
+				6B3F76CC1C6BAC6800446D78 /* Foundation.framework in Frameworks */,
+				6B3F76CB1C6BAC6100446D78 /* CFNetwork.framework in Frameworks */,
+				6B3F76CA1C6BAC5900446D78 /* libicucore.tbd in Frameworks */,
+				BDF5EA09C69CA8B9523B8403 /* libPods-FastenTestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +141,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BEFEE1B42CC364BABC89D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393658AE910C93207764FE7F /* Pods-FastenTestProject.debug.xcconfig */,
+				DA5B4F8EBFC367317AF354BF /* Pods-FastenTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B1B08FE1C70E37A007A65C6 /* Custom View & Styles */ = {
+			isa = PBXGroup;
+			children = (
+				6B345F1A1C70AF490064B849 /* HUFastenStylization.h */,
+				6B345F1B1C70AF490064B849 /* HUFastenStylization.m */,
+				6B345F1D1C70BDD00064B849 /* HULoginStyleButton.h */,
+				6B345F1E1C70BDD00064B849 /* HULoginStyleButton.m */,
+				6B1B09001C70E859007A65C6 /* UIView+Gradients.h */,
+				6B1B09011C70E859007A65C6 /* UIView+Gradients.m */,
+			);
+			name = "Custom View & Styles";
+			sourceTree = "<group>";
+		};
+		6B1B08FF1C70E38B007A65C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B345F091C7060D70064B849 /* HUActiveSessionInfoProtocol.h */,
+				6B3F76911C6BA7C400446D78 /* HULoginViewController.h */,
+				6B3F76921C6BA7C400446D78 /* HULoginViewController.m */,
+				6B345F061C705EFF0064B849 /* HUInfoViewController.h */,
+				6B345F071C705EFF0064B849 /* HUInfoViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6B345F101C7070270064B849 /* Date Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				6B345F0A1C706D470064B849 /* HULeftTimeFormatter.h */,
+				6B345F0B1C706D470064B849 /* HULeftTimeFormatter.m */,
+				6B345F0D1C706ED70064B849 /* HUExpirationDateFormatter.h */,
+				6B345F0E1C706ED70064B849 /* HUExpirationDateFormatter.m */,
+				6B345F111C7070830064B849 /* HURFC3339DateFormatter.h */,
+				6B345F121C7070830064B849 /* HURFC3339DateFormatter.m */,
+			);
+			name = "Date Formatters";
+			sourceTree = "<group>";
+		};
+		6B345F191C708AD50064B849 /* Business models */ = {
+			isa = PBXGroup;
+			children = (
+				6B345F161C7089850064B849 /* HUWebSocketAuthUserRequisites.h */,
+				6B345F171C7089850064B849 /* HUWebSocketAuthUserRequisites.m */,
+			);
+			name = "Business models";
+			sourceTree = "<group>";
+		};
 		6B3F767F1C6BA7C400446D78 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +204,8 @@
 				6B3F76A41C6BA7C500446D78 /* FastenTestProjectTests */,
 				6B3F76AF1C6BA7C500446D78 /* FastenTestProjectUITests */,
 				6B3F76891C6BA7C400446D78 /* Products */,
+				2BEFEE1B42CC364BABC89D23 /* Pods */,
+				849D55B865F92E529B92B840 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +222,16 @@
 		6B3F768A1C6BA7C400446D78 /* FastenTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				6B3F768E1C6BA7C400446D78 /* AppDelegate.h */,
-				6B3F768F1C6BA7C400446D78 /* AppDelegate.m */,
-				6B3F76911C6BA7C400446D78 /* ViewController.h */,
-				6B3F76921C6BA7C400446D78 /* ViewController.m */,
+				6B3F76E11C6F826D00446D78 /* Third Party */,
+				6B3F768E1C6BA7C400446D78 /* HUFastenAppDelegate.h */,
+				6B3F768F1C6BA7C400446D78 /* HUFastenAppDelegate.m */,
+				6B345F141C70815E0064B849 /* readme.txt */,
+				6B1B08FE1C70E37A007A65C6 /* Custom View & Styles */,
+				6B1B08FF1C70E38B007A65C6 /* View Controllers */,
+				6B345F191C708AD50064B849 /* Business models */,
+				6B345F101C7070270064B849 /* Date Formatters */,
+				6B3F76DE1C6F24A100446D78 /* Socket Messages Models */,
+				6B3F76DF1C6F262500446D78 /* Service layer */,
 				6B3F76941C6BA7C500446D78 /* Main.storyboard */,
 				6B3F76971C6BA7C500446D78 /* Assets.xcassets */,
 				6B3F76991C6BA7C500446D78 /* LaunchScreen.storyboard */,
@@ -140,6 +267,53 @@
 			path = FastenTestProjectUITests;
 			sourceTree = "<group>";
 		};
+		6B3F76DE1C6F24A100446D78 /* Socket Messages Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F76DD1C6F240B00446D78 /* HUWebSocketMessages.h */,
+				6B3F76CE1C6BB69400446D78 /* HUWebSocketMessageModels.h */,
+				6B3F76CF1C6BB69400446D78 /* HUWebSocketMessageModels.m */,
+				6B3F76D71C6F1FFE00446D78 /* HUWebSocketAuthMessage.h */,
+				6B3F76D81C6F1FFE00446D78 /* HUWebSocketAuthMessage.m */,
+				6B3F76DA1C6F20D900446D78 /* HUWebSocketMessageFactory.h */,
+				6B3F76DB1C6F20D900446D78 /* HUWebSocketMessageFactory.m */,
+			);
+			name = "Socket Messages Models";
+			sourceTree = "<group>";
+		};
+		6B3F76DF1C6F262500446D78 /* Service layer */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F76D11C6EEEB000446D78 /* HUWebSocketClient.h */,
+				6B3F76D21C6EEEB000446D78 /* HUWebSocketClient.m */,
+				6B3F76D41C6F0B3600446D78 /* HUWebSocketAuthService.h */,
+				6B3F76D51C6F0B3600446D78 /* HUWebSocketAuthService.m */,
+			);
+			name = "Service layer";
+			sourceTree = "<group>";
+		};
+		6B3F76E11C6F826D00446D78 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F76E21C6F828200446D78 /* BLMultiColorLoader.h */,
+				6B3F76E31C6F828200446D78 /* BLMultiColorLoader.m */,
+			);
+			name = "Third Party";
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		849D55B865F92E529B92B840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B3F76C41C6BAB9700446D78 /* Foundation.framework */,
+				6B3F76C21C6BAB8C00446D78 /* Security.framework */,
+				6B3F76C01C6BAB7E00446D78 /* CFNetwork.framework */,
+				6B3F76BE1C6BAB7400446D78 /* libicucore.tbd */,
+				D4A884305B23C93809D3D95A /* libPods-FastenTestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B3F76B51C6BA7C500446D78 /* Build configuration list for PBXNativeTarget "FastenTestProject" */;
 			buildPhases = (
+				F632BEC60FA8659410271560 /* Check Pods Manifest.lock */,
 				6B3F76841C6BA7C400446D78 /* Sources */,
 				6B3F76851C6BA7C400446D78 /* Frameworks */,
 				6B3F76861C6BA7C400446D78 /* Resources */,
+				CCEEE00BD90D14163782B1B9 /* Embed Pods Frameworks */,
+				CC85D67E1C9461FFFFDCE893 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +425,7 @@
 			files = (
 				6B3F769B1C6BA7C500446D78 /* LaunchScreen.storyboard in Resources */,
 				6B3F76981C6BA7C500446D78 /* Assets.xcassets in Resources */,
+				6B345F151C70815E0064B849 /* readme.txt in Resources */,
 				6B3F76961C6BA7C500446D78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +446,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CC85D67E1C9461FFFFDCE893 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastenTestProject/Pods-FastenTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCEEE00BD90D14163782B1B9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastenTestProject/Pods-FastenTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F632BEC60FA8659410271560 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B3F76841C6BA7C400446D78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3F76931C6BA7C400446D78 /* ViewController.m in Sources */,
-				6B3F76901C6BA7C400446D78 /* AppDelegate.m in Sources */,
+				6B3F76D31C6EEEB000446D78 /* HUWebSocketClient.m in Sources */,
+				6B3F76D01C6BB69400446D78 /* HUWebSocketMessageModels.m in Sources */,
+				6B345F1F1C70BDD00064B849 /* HULoginStyleButton.m in Sources */,
+				6B1B09021C70E859007A65C6 /* UIView+Gradients.m in Sources */,
+				6B3F76D91C6F1FFE00446D78 /* HUWebSocketAuthMessage.m in Sources */,
+				6B3F76931C6BA7C400446D78 /* HULoginViewController.m in Sources */,
+				6B345F0F1C706ED70064B849 /* HUExpirationDateFormatter.m in Sources */,
+				6B345F131C7070830064B849 /* HURFC3339DateFormatter.m in Sources */,
+				6B3F76901C6BA7C400446D78 /* HUFastenAppDelegate.m in Sources */,
+				6B3F76D61C6F0B3600446D78 /* HUWebSocketAuthService.m in Sources */,
+				6B345F0C1C706D470064B849 /* HULeftTimeFormatter.m in Sources */,
+				6B345F181C7089850064B849 /* HUWebSocketAuthUserRequisites.m in Sources */,
+				6B3F76E41C6F828200446D78 /* BLMultiColorLoader.m in Sources */,
+				6B345F081C705EFF0064B849 /* HUInfoViewController.m in Sources */,
 				6B3F768D1C6BA7C400446D78 /* main.m in Sources */,
+				6B345F1C1C70AF490064B849 /* HUFastenStylization.m in Sources */,
+				6B3F76DC1C6F20D900446D78 /* HUWebSocketMessageFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +654,7 @@
 		};
 		6B3F76B61C6BA7C500446D78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393658AE910C93207764FE7F /* Pods-FastenTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastenTestProject/Info.plist;
@@ -425,6 +666,7 @@
 		};
 		6B3F76B71C6BA7C500446D78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5B4F8EBFC367317AF354BF /* Pods-FastenTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastenTestProject/Info.plist;
@@ -501,6 +743,7 @@
 				6B3F76B71C6BA7C500446D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B3F76B81C6BA7C500446D78 /* Build configuration list for PBXNativeTarget "FastenTestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +752,7 @@
 				6B3F76BA1C6BA7C500446D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B3F76BB1C6BA7C500446D78 /* Build configuration list for PBXNativeTarget "FastenTestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +761,7 @@
 				6B3F76BD1C6BA7C500446D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
